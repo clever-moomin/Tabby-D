@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>決済用</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="fh5co-top-logo">
+				<div id="fh5co-logo"><a href="index.html"　style="color:bruwn;">Brown Tabby</a></div>
+			</div>
+			<div class="fh5co-top-menu menu-1 text-center">
+				<ul>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Journal</a></li>
+					<li class="has-dropdown">
+						<a href="#">Service</a>
+						<ul class="dropdown">
+							<li><a href="#">Digital Content</a></li>
+							<li><a href="#">30Week</a></li>
+							<li><a href="#">Digital Media</a></li>
+							<li><a href="#">WebMarketing</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="fh5co-top-social menu-1 text-right">
+				<ul class="fh5co-social">
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-youtube"></i></a></li>
+					<!--<li><a href="#"><i class="icon-github"></i></a></li>-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="fh5co-author">
+		<div class="container">
+			<div class="row top-line animate-box">
+				<div class="col-md-6 col-md-offset-3 col-md-push-2 text-left fh5co-heading">
+					<h2>岩本講師-共有-マルキ（決済）</h2>
+					<p>レッスン代再設定用ページ/月2回コース</p>
+					<p>8,800円/月2回コース</p>
+					<div id="paypal-button-container-P-6B472044BS712061YMD7HHIA"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=ATJSY8_5K0Vo3A-m831geCm1jpLGNIv9er0nOhpleUdZX9G_FShUmGWNNyg_Qly2_uHOEhS14ozQK9k_&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script> 
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-6B472044BS712061YMD7HHIA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-6B472044BS712061YMD7HHIA'); // Renders the PayPal button
+</script>
+					
+					
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
