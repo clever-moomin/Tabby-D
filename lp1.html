@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIカウンセリング＆予約管理 | サロン経営をスマートに</title>
+    <style>
+        /* フォントと全体スタイル */
+        @import url('https://fonts.googleapis.com/css2?family=Yomogi&family=Poppins:wght@300;500&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Yomogi', 'Poppins', sans-serif;
+            background: linear-gradient(to bottom, #fff5f7, #ffdde1);
+            text-align: center;
+            color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            font-family: 'Yomogi', cursive;
+            font-size: 3em;
+            color: #d63384;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .hero {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .hero img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* 特徴のセクション */
+        .features {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .feature {
+            width: 80%;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #d63384;
+            margin-bottom: 10px;
+        }
+
+        /* CTAボタン */
+        .cta {
+            margin-top: 50px;
+        }
+
+        .cta button {
+            background: #ff69b4;
+            color: white;
+            font-size: 1.2em;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .cta button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        /* アニメーション */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .feature {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+    <meta name="robots" content="noindex">
+</head>
+<body>
+
+    <div class="container">
+        <h1>サロン経営をもっと楽に</h1>
+        <p>Antii-AIがあなたの予約管理 & カウンセリングをサポートします。</p>
+
+        <div class="hero">
+            <img src="images/b4.jpg" alt="サロンのイメージ">
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>💖 AIカウンセリング 💖</h3>
+                <p>お客様の悩みを事前にヒアリングし、最適な施術を提案。</p>
+            </div>
+            <div class="feature">
+                <h3>📅 予約管理の自動化 📅</h3>
+                <p>LINEやメールでリマインドを送信し、スケジュール管理を効率化。</p>
+            </div>
+            <div class="feature">
+                <h3>💬 スムーズな接客 💬</h3>
+                <p>お客様の情報を事前に把握し、満足度の高いサービスを提供。</p>
+            </div>
+            <div class="feature">
+                <h3>📊 売上アップ 📊</h3>
+                <p>リピーターを増やし、サロンの売上向上をサポート。</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <button onclick="showAlert()">無料で試す</button>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 AIカウンセリング＆予約管理 | あなたのサロンを次のレベルへ
+    </footer>
+
+    <script>
+        function showAlert() {
+            alert("無料体験の受付が完了しました！詳細はメールでお送りします。");
+        }
+    </script>
+
+</body>
+</html>
